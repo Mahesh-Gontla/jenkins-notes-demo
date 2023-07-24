@@ -1,0 +1,6 @@
+Jenkins is a CI/CD tool
+Jenkins is an open source and is entirely written in Java
+Jenkins is a plugin-based tool 
+There are 1000+ plugins available for Jenkins
+Jenkins also supports cloud-based architecture so that you can deploy Jenkins in cloud-based platforms
+default port number:8080
