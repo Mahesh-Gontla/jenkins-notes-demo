@@ -1,0 +1,40 @@
+Q)What is Jenkins?
+  it is a continuous integration (CI) and continuous deployment (CD) tool.
+ 
+Q)what are CI and CD?
+ 
+ CI means integrating the developer's code. CD means delivering or deploying the code into different environments (QA, pre-production, production).
+
+- It is a java based application.
+- it will help to automate the process of code integration, code build, and code delivery.
+- it is an open-source tool like Hudson/bamboo/TeamCity.
+- Jenkins has the original name of Hudson.
+
+- Jenkins is the core part of the DevOps.
+- Jenkins will connect to the scm,qa, tomcat, production, etc. to interact with these systems. 
+- it has interacted with those systems with the plugins.
+- it is a plugin-based tool.
+- nearly 1000+ plugins Jenkins will support.
+
+Q) what important section of Jenkins?
+ 
+ - Plugin management.
+ - global tool management.
+ - job management.
+ - Jenkins dashboard.
+ - user management.
+ - security management.
+ - slave connection.
+
+Q)Role of DevOps Engineer (or) Build and Release Engineer?
+  
+ - Installation and configuration.
+ - plugin management.
+ - user management.
+ - security management.
+ - global tool management.
+ - creating jobs.
+ - monitoring jobs.
+ - jobs pipeline
+ - integrating different tools.
+ - taking Jenkins backup.
