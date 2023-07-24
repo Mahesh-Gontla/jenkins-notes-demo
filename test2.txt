@@ -38,3 +38,64 @@ Q)Role of DevOps Engineer (or) Build and Release Engineer?
  - jobs pipeline
  - integrating different tools.
  - taking Jenkins backup.
+
+
+
+Jenkins installation and configuration:
+
+Jenkins install and configure:
+-----------------------------
+ 1. using yum packages.
+ 2. using docker image.
+ 3. using jenkins.war.
+ 4. using tomcat.
+
+Pre-requisites:
+---------------
+- java 1.8.0 --- yum -y install java-1.8.0-openjdk
+- javac 1.8.0 --- yum -y install java-1.8.0-opnjdk-devel
+
+Steps to install:
+-----------------
+ 1.
+ - set up the repositories. -- by using yum command or apt-get
+ - install jenkins (yum -y install jenkins)
+ 2.Installation of jenkins using docker
+ - set up docker environment
+ - download jenkins image.
+ - start the container.
+ 3. directly run the jenkins war file
+ - download jenkins.war LTS file from offical site
+ - start jaenkins.war (java -jar jenkins.war) 2.121.1 -- long term support
+ 4. deploying jenkins war file in tomcat
+ - download tomcat 7
+ - download jenkins.war
+ - copy jenkins.war file into the webapps folder of the tomcat (/opt/apache-tomcat-7-xx/webapps/)
+ - start the tomcat. (./startup.sh)
+
+Configuration:
+-------------
+1)unlock the jenkins use admin password
+
+ - cat /home/ramki/.jenkins/secrets/AdminPasword
+
+2) install the required plugins.
+3)setup the user and password.
+4)login to the dashboard using username and password.
+
+setup jenkins on tomcat.
+
+- download tomcat 7
+ - download jenkins.war
+ - copy jenkins.war file into the webapps folder of the tomcat (/opt/apache-tomcat-7-xx/webapps/)
+ - start the tomcat. (./startup.sh)
+
+Configuration:
+-------------
+1)unlock the jenkins use admin password
+
+ - cat /home/ramki/.jenkins/secrets/AdminPasword
+
+2) install the required plugins.
+3)setup the user and password.
+4)login to the dashboard using username and password.
